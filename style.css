@@ -1,0 +1,42 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 65px;
+    color: orangered;
+
+}
+
+.top-banner {
+    background-image: url(images/bg-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 670px;
+    position: relative;
+    color: #ffffff;
+}
+
+.donate-now {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.donate-now p {
+    padding: 20px 400px;
+    background-color: dodgerblue;
+}
+
+.donate-btn {
+    text-decoration: none;
+    font-size: 19px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: orangered;
+}
