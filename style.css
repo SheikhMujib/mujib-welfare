@@ -15,6 +15,7 @@ h1 {
     line-height: 35px;
 
 }
+
 h2 {
     font-size: 50px;
 }
@@ -57,16 +58,16 @@ h2 {
     align-items: center;
     justify-content: center;
 }
-.donate-today{
+
+.donate-today {
     margin-bottom: 100px;
 }
+
 .donate-today>div {
     width: 820px;
     margin: 10px;
     text-align: center;
 }
-
-
 
 .flex-row-container {
     display: flex;
@@ -128,23 +129,30 @@ input[type=number] {
 #education {
     background-color: #fff4d6;
 }
-.project-videos{
+
+/* bonus section-1 start from here */
+.project-videos {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 .videos>div {
     margin: 10px;
 }
 
+/* bonus section-2 start from here */
 .photos img {
     width: 400px;
     height: 320px;
     margin: 10px;
 }
-.updates{
+
+/* 4th section start from here */
+.updates {
     margin-top: 70px;
     margin-bottom: 100px;
 }
+
 .updates>div {
     width: 820px;
     margin: 10px;
@@ -156,7 +164,7 @@ input[type=number] {
     height: 205px;
 }
 
-.subscribe>div {
+form {
     width: 445px;
 }
 
@@ -184,6 +192,7 @@ input[type=submit] {
     color: #ffffff;
 }
 
+/* footer section start from here */
 footer {
     background-color: #000000;
     color: #ffffff;
