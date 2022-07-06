@@ -1,7 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-
     margin: 0;
 }
 
@@ -16,6 +15,9 @@ h1 {
     line-height: 35px;
 
 }
+h2 {
+    font-size: 50px;
+}
 
 .top-banner {
     background-image: url(images/bg-banner.jpg);
@@ -23,6 +25,7 @@ h1 {
     background-size: cover;
     height: 670px;
     color: #ffffff;
+    margin-bottom: 100px;
 }
 
 .top-banner>div {
@@ -31,11 +34,10 @@ h1 {
     text-align: center;
 }
 
-.donate-now p {
+.top-banner p {
     font-size: 25px;
-    padding: 20px 400px;
     /* background-color: dodgerblue; */
-    color: #ffffff;
+    color: #000000;
 }
 
 .link-button {
@@ -48,23 +50,23 @@ h1 {
     background-color: orangered;
 }
 
-/* 2nd section start from here   */
+/* 2nd section start from here */
 .flex-column-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
+.donate-today{
+    margin-bottom: 100px;
+}
 .donate-today>div {
     width: 820px;
     margin: 10px;
     text-align: center;
 }
 
-h2 {
-    font-size: 40px;
-}
+
 
 .flex-row-container {
     display: flex;
@@ -80,7 +82,7 @@ h2 {
     margin: 10px;
     text-align: center;
     line-height: 70px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     border-radius: 5px;
 }
@@ -108,9 +110,9 @@ input[type=number] {
 
 .welfare-projects>div {
     width: 300px;
-    height: 220px;
+    height: 350px;
     margin: 10px;
-    padding: 80px 25px;
+    padding: 15px 25px;
     border-radius: 5px;
     text-align: left;
 }
@@ -126,7 +128,10 @@ input[type=number] {
 #education {
     background-color: #fff4d6;
 }
-
+.project-videos{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .videos>div {
     margin: 10px;
 }
@@ -136,11 +141,57 @@ input[type=number] {
     height: 320px;
     margin: 10px;
 }
-footer{
+.updates{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.updates>div {
+    width: 820px;
+    margin: 10px;
+    text-align: center;
+}
+
+.subscribe {
+    background-color: #fff4d6;
+    height: 205px;
+}
+
+.subscribe>div {
+    width: 445px;
+}
+
+input[type=email] {
+    background-color: #d9d9d9;
+    width: 50%;
+    padding: 12px 25px;
+    border: none;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 0px;
+}
+
+input[type=submit] {
+    background-color: #ff5959;
+    width: 30%;
+    padding: 12px 25px;
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer {
     background-color: #000000;
     color: #ffffff;
     padding-bottom: 45px;
+    line-height: 25px;
+    font-family: 'Manrope';
 }
-footer h2{
+
+footer h2 {
     color: orangered;
 }
