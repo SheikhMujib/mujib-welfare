@@ -37,10 +37,10 @@ h1 {
     font-size: 25px;
     padding: 20px 400px;
     /* background-color: dodgerblue; */
-    color: #000000;
+    color: #ffffff;
 }
 
-.donate-btn {
+.link-button {
     text-decoration: none;
     font-size: 19px;
     padding: 15px 25px;
@@ -50,7 +50,7 @@ h1 {
 }
 
 /* 2nd section start from here   */
-.flex-container {
+.flex-column-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,6 +70,7 @@ h2 {
 .flex-row-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -110,6 +111,7 @@ input[type=number] {
     height: 220px;
     margin: 10px;
     padding: 80px 25px;
+    border-radius: 5px;
     text-align: left;
 }
 
@@ -123,4 +125,7 @@ input[type=number] {
 
 #education {
     background-color: #fff4d6;
+}
+.videos>div{
+    margin: 10px;
 }
