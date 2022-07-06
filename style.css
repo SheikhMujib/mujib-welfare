@@ -13,6 +13,7 @@ p {
 h1 {
     font-size: 65px;
     color: orangered;
+    line-height: 35px;
 
 }
 
@@ -21,16 +22,13 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 670px;
-    position: relative;
     color: #ffffff;
 }
 
-.donate-now {
-    position: absolute;
-    top: 25%;
-    width: 100%;
+.top-banner>div {
+    width: 850px;
+    margin: 15px;
     text-align: center;
-    line-height: 35px;
 }
 
 .donate-now p {
@@ -44,6 +42,7 @@ h1 {
     text-decoration: none;
     font-size: 19px;
     padding: 15px 25px;
+    margin: 25px;
     border-radius: 10px;
     color: #ffffff;
     background-color: orangered;
@@ -102,10 +101,11 @@ input[type=number] {
 }
 
 /* 3rd section start from here */
-.donate-plan{
+.donate-plan {
     text-align: center;
     width: 820px;
 }
+
 .welfare-projects>div {
     width: 300px;
     height: 220px;
@@ -126,6 +126,21 @@ input[type=number] {
 #education {
     background-color: #fff4d6;
 }
-.videos>div{
+
+.videos>div {
     margin: 10px;
+}
+
+.photos img {
+    width: 400px;
+    height: 320px;
+    margin: 10px;
+}
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 45px;
+}
+footer h2{
+    color: orangered;
 }
